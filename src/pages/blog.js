@@ -25,7 +25,7 @@ const Blog = () => {
         >
           <Grid item xs={12} sm={8} md={6}>
             <Typography variant="h3" paragraph>
-              So'ngi Xinuxdagi habarlar
+              So'ngi Uzinfocom Open Source dagi habarlar
             </Typography>
             <Bar />
             <BlogCards blogs={blogs} />

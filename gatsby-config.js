@@ -3,16 +3,16 @@ const { createHttpLink } = require("apollo-link-http");
 
 module.exports = {
     siteMetadata: {
-        name: "Xinux O'zbekiston",
-        title: `O'zbekistondagi Yagona Linuxni Rivojlantiruvchi Jamiyat`,
-        description: `O'zbekistondagi Yagona Linuxni Rivojlantiruvchi Jamiyat.`,
-        author: `@uwussimo`,
+        name: "Uzinfocom Open Source",
+        title: `O'zbekistondagi Yagona Open Source Rivojlantiruvchi Jamiyat`,
+        description: `O'zbekistondagi Yagona Open Source Rivojlantiruvchi Jamiyat.`,
+        author: `@uzinfocom-org`,
         siteUrl: `https://xinux.uz`,
         social: {
-            twitter: "uwussimo",
-            github: "xinuxuz",
+            twitter: "uzinfocom",
+            github: "uzinfocom-org",
             telegram: "xinuxuz",
-            email: "xinuxuz@icloud.com",
+            email: "cctld@uzinfocom.uz",
         },
     },
     plugins: [
@@ -63,9 +63,9 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Xinux O'zbekiston`,
-                short_name: `XINUX`,
-                description: "Xinux Jamiyati sahifasi",
+                name: `Uzinfocom Open Source`,
+                short_name: `Uzinfocom`,
+                description: "Uzinfocom Open Source",
                 lang: "en",
                 start_url: `/`,
                 background_color: `#000`,
