@@ -65,55 +65,55 @@ const About = () => {
               }}
             >
               <Typography variant="h5" gutterBottom>
-                Biz Xinux Jamiyatimiz!
+                Biz Uzinfocom Open Source Jamiyatimiz!
               </Typography>
               <Typography gutterBottom>
-                Avvalambor shuni aytib o'tiz joizki, bu jamiyat yaralishidan maqsad bu Linux ni{" "}
+                Avvalambor shuni aytib o'tiz joizki, bu jamiyat yaralishidan maqsad bu Open Source ni{" "}
                 <span role="img" aria-labelledby="uzbekistan">
                   🇺🇿
                 </span>{" "}
-                O'zbekistonda keng miqyosda rivojlantirish va undan foydalanishni hammaga o'rgatishdir.{" "}
+                O'zbekistonda keng miqyosda rivojlantirish va unga hammani o'z hissasini qo'shishga chorlashdir.{" "}
                 <span role="img" aria-labelledby="geek">
                   🤓
                 </span>{" "}
-                Bizning jamiyatimiz hamma Linux va uning distributlarini qamrab olgan hisoblanib Linuxdagi hamma ma'lumotlar{" "}
+                Bizning jamiyatimiz hamma yo'nalishlarni qamrab olgan hisoblanib{" "}
                 <span role="img" aria-label="information">
                   📝
                 </span>
-                , yechimlar va ulardagi foydalanish usuliyu sirlarini bo'lishishga va ularni boshqalar bilan birgalikda o'rganib chiqishga qaratilgan.{" "}
+                , o'zbek open source ni qayta tiriltirish, uni sayqallash va rivojlantirishga o'z e'tiborini qaratadi.{" "}
               </Typography>
-              <Typography>
-                Xinux jamiyati UwUssimo tomonidan yaratilgan hisoblanib, Xinux jamiyati O'zbekistondagi Linuxga bo'lgan munosabatlarni yaxshilashni ko'zlagan. Masalan, Linux paketlarini{" "}
-                <span role="img" aria-labelledby="web">
-                  🕸
-                </span>{" "}
-                yuklash O'zbekistondagi ichki tarmoqlar orqali amalga oshirish imkoniyatlari{" "}
-                <span role="img" aria-labelledby="robot">
-                  🤖
-                </span>{" "}
-                yoki O'zbekcha tarjimayu O'zbek tiliga moslangan interfeys ko'tarib olib chiqish va uni rivojlantirishni ham o'z ichiga oladi.{" "}
-                <span role="img" aria-labelledby="snake">
-                  🐍
-                </span>
-                . Biz bilan birgalikda bo'ling va bizni ushbu{" "}
-                <MuiLink
-                  component={Link}
-                  to="/blog"
-                  underline="always"
-                  color="textPrimary"
-                >
-                  blogimizda
-                </MuiLink>{" "}
-                kuzatib boring. Biz bilan birgalikda ushbu jamiya va linux{" "}
-                <span role="img" aria-labelledby="ladybug">
-                  🐞
-                </span>{" "}
-                ni rivojlantiring{" "}
-                <span role="img" aria-labelledby="virus">
-                  👾
-                </span>
-                .
-              </Typography>
+              {/*<Typography>*/}
+              {/*  Xinux jamiyati UwUssimo tomonidan yaratilgan hisoblanib, Xinux jamiyati O'zbekistondagi Linuxga bo'lgan munosabatlarni yaxshilashni ko'zlagan. Masalan, Linux paketlarini{" "}*/}
+              {/*  <span role="img" aria-labelledby="web">*/}
+              {/*    🕸*/}
+              {/*  </span>{" "}*/}
+              {/*  yuklash O'zbekistondagi ichki tarmoqlar orqali amalga oshirish imkoniyatlari{" "}*/}
+              {/*  <span role="img" aria-labelledby="robot">*/}
+              {/*    🤖*/}
+              {/*  </span>{" "}*/}
+              {/*  yoki O'zbekcha tarjimayu O'zbek tiliga moslangan interfeys ko'tarib olib chiqish va uni rivojlantirishni ham o'z ichiga oladi.{" "}*/}
+              {/*  <span role="img" aria-labelledby="snake">*/}
+              {/*    🐍*/}
+              {/*  </span>*/}
+              {/*  . Biz bilan birgalikda bo'ling va bizni ushbu{" "}*/}
+              {/*  <MuiLink*/}
+              {/*    component={Link}*/}
+              {/*    to="/blog"*/}
+              {/*    underline="always"*/}
+              {/*    color="textPrimary"*/}
+              {/*  >*/}
+              {/*    blogimizda*/}
+              {/*  </MuiLink>{" "}*/}
+              {/*  kuzatib boring. Biz bilan birgalikda ushbu jamiya va linux{" "}*/}
+              {/*  <span role="img" aria-labelledby="ladybug">*/}
+              {/*    🐞*/}
+              {/*  </span>{" "}*/}
+              {/*  ni rivojlantiring{" "}*/}
+              {/*  <span role="img" aria-labelledby="virus">*/}
+              {/*    👾*/}
+              {/*  </span>*/}
+              {/*  .*/}
+              {/*</Typography>*/}
             </Box>
           </Grid>
         </Grid>
