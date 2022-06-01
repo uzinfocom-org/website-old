@@ -1,7 +1,7 @@
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 
-const dPrimary = "#7fffd4";
-const lPrimary = "#ff1744";
+const dPrimary = "#188de0";
+const lPrimary = "#d77531";
 
 // A custom theme for this app
 const themeConfig = type => {
