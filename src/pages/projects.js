@@ -13,7 +13,7 @@ import { useFadeIn } from "../components/Animation/useFadeIn";
 export const data = graphql`
   query {
     github {
-      organization(login: "xinuxuz") {
+      organization(login: "uzinfocom-org") {
         login
         url
         ... on Github_Organization {

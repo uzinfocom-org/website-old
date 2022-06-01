@@ -71,7 +71,7 @@ module.exports = {
                 background_color: `#000`,
                 theme_color: `#000`,
                 display: "standalone",
-                icon: `src/images/logo-dark.jpg`, // This path is relative to the root of the site.
+                icon: `src/images/logo-dark.png`, // This path is relative to the root of the site.
                 legacy: false,
                 // include_favicon: false,
             },
