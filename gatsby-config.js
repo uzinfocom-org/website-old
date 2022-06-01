@@ -4,8 +4,8 @@ const { createHttpLink } = require("apollo-link-http");
 module.exports = {
     siteMetadata: {
         name: "Uzinfocom Open Source",
-        title: `O'zbekistondagi Yagona Open Source Rivojlantiruvchi Jamiyat`,
-        description: `O'zbekistondagi Yagona Open Source Rivojlantiruvchi Jamiyat.`,
+        title: `O'zbekistondagi Birinchi Open Source Rivojlantiruvchi Jamiyat`,
+        description: `O'zbekistondagi Birinchi Open Source Rivojlantiruvchi Jamiyat.`,
         author: `@uzinfocom-org`,
         siteUrl: `https://xinux.uz`,
         social: {

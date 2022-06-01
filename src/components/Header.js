@@ -50,8 +50,8 @@ const Header = () => {
           <Box
             clone
             height={{
-              xs: 22,
-              md: 25
+              xs: 44,
+              md: 50
             }}
           >
             <Logo />
