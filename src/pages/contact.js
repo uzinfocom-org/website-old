@@ -27,11 +27,11 @@ const Contact = () => {
         text: "github",
         icon: GithubLogo
       },
-      {
-        url: `https://t.me/${social.telegram}`,
-        text: "telegram",
-        icon: TelegramIcon
-      }
+      // {
+      //   url: `https://t.me/${social.telegram}`,
+      //   text: "telegram",
+      //   icon: TelegramIcon
+      // }
     ],
     [social]
   );
