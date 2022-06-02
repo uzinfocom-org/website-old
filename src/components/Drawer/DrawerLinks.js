@@ -26,7 +26,7 @@ const links = [
         to: "/contact",
     },
     {
-        text: "Wiki",
+        text: "Xinux",
         to: "https://guide.xinux.uz/",
     }
 ];

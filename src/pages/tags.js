@@ -34,7 +34,7 @@ const TagsPage = ({
     <Grid container justify="center">
       <Grid item xs={12} sm={8} md={6}>
         <Typography variant="h3" paragraph>
-          Tags
+          Teglar
         </Typography>
         <Bar />
         {group.map(tag => (

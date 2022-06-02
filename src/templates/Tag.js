@@ -5,7 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import SEO from "../components/SEO";
 import Bar from "../components/Bar";
 import BlogCards from "../components/BlogCards";
-import NavigationLink from "../components/NavigationLink";
+// import NavigationLink from "../components/NavigationLink";
 
 export const data = graphql`
   query($tag: String) {
@@ -36,9 +36,9 @@ const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext;
   const { edges, count } = data.allMarkdownRemark;
 
-  const tagHeader = `${count} post${
-    count === 1 ? "" : "s"
-  } tagged with "${tag}"`;
+  const tagHeader = `"${tag}" tegi bilan belgilangan ${count} post${
+    count === 1 ? "" : "lar"
+  } bor`;
 
   return (
     <Fragment>
@@ -50,7 +50,7 @@ const Tags = ({ pageContext, data }) => {
           </Typography>
           <Bar />
           <BlogCards blogs={edges} />
-          <NavigationLink text="All Tags" type="previous" to="/tags" />
+          {/*<NavigationLink text="Hamma Teglar" type="previous" to="/tags" />*/}
         </Grid>
       </Grid>
     </Fragment>

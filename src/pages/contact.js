@@ -8,7 +8,7 @@ import useSiteMetadata from "../hooks/useSiteMetadata";
 import { useFadeIn } from "../components/Animation/useFadeIn";
 import TwitterLogo from "../components/Icons/TwitterIcon";
 import GithubLogo from "../components/Icons/GithubIcon";
-import TelegramIcon from "../components/Icons/TelegramIcon";
+// import TelegramIcon from "../components/Icons/TelegramIcon";
 import MailIcon from "../components/Icons/MailIcon";
 
 const Contact = () => {
