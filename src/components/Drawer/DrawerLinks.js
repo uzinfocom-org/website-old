@@ -66,7 +66,7 @@ export default ({ open, onTap }) => {
                     ),
                 }}
             >
-                {curr.text === "Wiki" ? (
+                {curr.text === "Xinux" ? (
                     <Link
                         color="inherit"
                         underline="none"
