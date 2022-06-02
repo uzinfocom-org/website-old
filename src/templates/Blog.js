@@ -55,8 +55,8 @@ const Blog = ({
 }) => {
   const navs = useMemo(
     () => [
-      { text: "Previous", to: previous, type: "previous" },
-      { text: "Next", to: next, type: "next" }
+      { text: "Oldingi", to: previous, type: "previous" },
+      { text: "Keyingi", to: next, type: "next" }
     ],
     [previous, next]
   );
