@@ -68,7 +68,7 @@ const About = () => {
                 Biz Uzinfocom Open Source Jamiyatimiz!
               </Typography>
               <Typography gutterBottom>
-                Avvalambor shuni aytib o'tiz joizki, bu jamiyat yaralishidan maqsad bu Open Source ni{" "}
+                Avvalambor shuni aytib o'tish joizki, bu jamiyat yaralishidan maqsad bu Open Source ni{" "}
                 <span role="img" aria-labelledby="uzbekistan">
                   🇺🇿
                 </span>{" "}
