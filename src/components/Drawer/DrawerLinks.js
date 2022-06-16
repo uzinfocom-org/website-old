@@ -14,7 +14,7 @@ const links = [
         to: "/about",
     },
     {
-        text: "Proyektlar",
+        text: "Loyihalar",
         to: "/projects",
     },
     {

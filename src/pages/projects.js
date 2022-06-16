@@ -27,10 +27,10 @@ export const data = graphql`
                   description
                   homepageUrl
                   url
-#                  stargazers {
-#                    totalCount
-#                  }
-#                  pushedAt
+                  #                  stargazers {
+                  #                    totalCount
+                  #                  }
+                  #                  pushedAt
                 }
               }
             }
@@ -62,7 +62,7 @@ const Projects = ({
         >
           <Grid item xs={12} sm={8} md={6}>
             <Typography variant="h3" paragraph>
-              Proyektlarimiz
+              Loyihalarimiz
             </Typography>
             <Bar />
             <Box mb={4}>

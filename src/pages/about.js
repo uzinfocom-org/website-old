@@ -68,11 +68,13 @@ const About = () => {
                 Biz Uzinfocom Open Source Jamiyatimiz!
               </Typography>
               <Typography gutterBottom>
-                Avvalambor shuni aytib o'tish joizki, bu jamiyat yaralishidan maqsad bu Open Source ni{" "}
+                Avvalambor shuni aytib o'tish joizki, bu jamiyat yaralishidan
+                maqsad bu Open Source ni{" "}
                 <span role="img" aria-labelledby="uzbekistan">
                   🇺🇿
                 </span>{" "}
-                O'zbekistonda keng miqyosda rivojlantirish va unga hammani o'z hissasini qo'shishga chorlashdir.{" "}
+                O'zbekistonda keng miqyosda rivojlantirish va unga hammani o'z
+                hissasini qo'shishga chorlashdir.{" "}
                 <span role="img" aria-labelledby="geek">
                   🤓
                 </span>{" "}
@@ -80,7 +82,8 @@ const About = () => {
                 <span role="img" aria-label="information">
                   📝
                 </span>
-                , o'zbek open source ni qayta tiriltirish, uni sayqallash va rivojlantirishga o'z e'tiborini qaratadi.{" "}
+                , o'zbek open source ni qayta tiriltirish, uni sayqallash va
+                rivojlantirishga o'z e'tiborini qaratadi.{" "}
               </Typography>
               {/*<Typography>*/}
               {/*  Xinux jamiyati UwUssimo tomonidan yaratilgan hisoblanib, Xinux jamiyati O'zbekistondagi Linuxga bo'lgan munosabatlarni yaxshilashni ko'zlagan. Masalan, Linux paketlarini{" "}*/}

@@ -26,7 +26,7 @@ const Contact = () => {
         url: `https://github.com/${social.github}`,
         text: "github",
         icon: GithubLogo
-      },
+      }
       // {
       //   url: `https://t.me/${social.telegram}`,
       //   text: "telegram",
