@@ -1,14 +1,16 @@
-import React, { Fragment, memo } from "react";
-import Box from "@material-ui/core/Box";
-import Typography from "@material-ui/core/Typography";
-import MuiLink from "@material-ui/core/Link";
-import ArrayIcon from "@material-ui/icons/PlayArrowTwoTone";
-import { Link } from "gatsby";
-import CustomFab from "./CustomFab";
-import { useFadeIn } from "./Animation/useFadeIn";
+import React, { Fragment, memo } from 'react';
+import Box from '@material-ui/core/Box';
+import Typography from '@material-ui/core/Typography';
+import MuiLink from '@material-ui/core/Link';
+import ArrayIcon from '@material-ui/icons/PlayArrowTwoTone';
+import { Link } from 'gatsby';
+import CustomFab from './CustomFab';
+import { useFadeIn } from './Animation/useFadeIn';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
   const [fadeIn, animated] = useFadeIn();
+  const { t } = useTranslation();
 
   return (
     <Fragment>
@@ -23,17 +25,17 @@ const Footer = () => {
         justifyContent="flex-end"
         py={{
           xs: 2.5,
-          md: 3.5
+          md: 3.5,
         }}
         px={{
           xs: 2.5,
-          md: 4
+          md: 4,
         }}
       >
         <Box clone display="flex" alignItems="center">
           <MuiLink component={Link} to="/blog" color="textPrimary">
             <Box lineHeight={1} px={1}>
-              <Typography variant="body2">So'ngi yangiliklar</Typography>
+              <Typography variant="body2">{t('latestNews')}</Typography>
             </Box>
             <CustomFab size="small">
               <ArrayIcon color="primary" fontSize="small" />
