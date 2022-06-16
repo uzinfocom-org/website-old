@@ -2,8 +2,6 @@ import React, { Fragment } from "react";
 import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-// import MuiLink from "@material-ui/core/Link";
-// import { Link } from "gatsby";
 import SEO from "../components/SEO";
 import { useFadeIn } from "../components/Animation/useFadeIn";
 
@@ -85,38 +83,6 @@ const About = () => {
                 , o'zbek open source ni qayta tiriltirish, uni sayqallash va
                 rivojlantirishga o'z e'tiborini qaratadi.{" "}
               </Typography>
-              {/*<Typography>*/}
-              {/*  Xinux jamiyati UwUssimo tomonidan yaratilgan hisoblanib, Xinux jamiyati O'zbekistondagi Linuxga bo'lgan munosabatlarni yaxshilashni ko'zlagan. Masalan, Linux paketlarini{" "}*/}
-              {/*  <span role="img" aria-labelledby="web">*/}
-              {/*    🕸*/}
-              {/*  </span>{" "}*/}
-              {/*  yuklash O'zbekistondagi ichki tarmoqlar orqali amalga oshirish imkoniyatlari{" "}*/}
-              {/*  <span role="img" aria-labelledby="robot">*/}
-              {/*    🤖*/}
-              {/*  </span>{" "}*/}
-              {/*  yoki O'zbekcha tarjimayu O'zbek tiliga moslangan interfeys ko'tarib olib chiqish va uni rivojlantirishni ham o'z ichiga oladi.{" "}*/}
-              {/*  <span role="img" aria-labelledby="snake">*/}
-              {/*    🐍*/}
-              {/*  </span>*/}
-              {/*  . Biz bilan birgalikda bo'ling va bizni ushbu{" "}*/}
-              {/*  <MuiLink*/}
-              {/*    component={Link}*/}
-              {/*    to="/blog"*/}
-              {/*    underline="always"*/}
-              {/*    color="textPrimary"*/}
-              {/*  >*/}
-              {/*    blogimizda*/}
-              {/*  </MuiLink>{" "}*/}
-              {/*  kuzatib boring. Biz bilan birgalikda ushbu jamiya va linux{" "}*/}
-              {/*  <span role="img" aria-labelledby="ladybug">*/}
-              {/*    🐞*/}
-              {/*  </span>{" "}*/}
-              {/*  ni rivojlantiring{" "}*/}
-              {/*  <span role="img" aria-labelledby="virus">*/}
-              {/*    👾*/}
-              {/*  </span>*/}
-              {/*  .*/}
-              {/*</Typography>*/}
             </Box>
           </Grid>
         </Grid>
