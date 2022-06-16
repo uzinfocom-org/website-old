@@ -7,7 +7,7 @@ module.exports = {
         title: `O'zbekistondagi Birinchi Open Source Rivojlantiruvchi Jamiyat`,
         description: `O'zbekistondagi Birinchi Open Source Rivojlantiruvchi Jamiyat.`,
         author: `@uzinfocom-org`,
-        siteUrl: `https://xinux.uz`,
+        siteUrl: `https://oss.uzinfocom.uz`,
         social: {
             twitter: "uzinfocom",
             github: "uzinfocom-org",
