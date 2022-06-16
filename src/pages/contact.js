@@ -8,8 +8,9 @@ import useSiteMetadata from "../hooks/useSiteMetadata";
 import { useFadeIn } from "../components/Animation/useFadeIn";
 import TwitterLogo from "../components/Icons/TwitterIcon";
 import GithubLogo from "../components/Icons/GithubIcon";
-// import TelegramIcon from "../components/Icons/TelegramIcon";
+import DiscordIcon from "../components/Icons/DiscordIcon";
 import MailIcon from "../components/Icons/MailIcon";
+import TelegramIcon from "../components/Icons/TelegramIcon";
 
 const Contact = () => {
   const { social } = useSiteMetadata();
@@ -26,12 +27,17 @@ const Contact = () => {
         url: `https://github.com/${social.github}`,
         text: "github",
         icon: GithubLogo
+      },
+      {
+        url: `https://t.me/${social.telegram}`,
+        text: "telegram",
+        icon: TelegramIcon
+      },
+      {
+        url: `https://discord.com/invite/${social.discord}`,
+        text: "discord",
+        icon: DiscordIcon
       }
-      // {
-      //   url: `https://t.me/${social.telegram}`,
-      //   text: "telegram",
-      //   icon: TelegramIcon
-      // }
     ],
     [social]
   );

@@ -12,6 +12,7 @@ module.exports = {
             twitter: "uzinfocom",
             github: "uzinfocom-org",
             telegram: "xinuxuz",
+            discord: "my3G2FVW5Z",
             email: "cctld@uzinfocom.uz",
         },
     },

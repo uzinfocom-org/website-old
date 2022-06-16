@@ -14,6 +14,7 @@ function useSiteMetadata() {
             github
             telegram
             email
+            discord
           }
         }
       }
