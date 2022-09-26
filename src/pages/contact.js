@@ -8,7 +8,7 @@ import useSiteMetadata from "../hooks/useSiteMetadata";
 import { useFadeIn } from "../components/Animation/useFadeIn";
 import TwitterLogo from "../components/Icons/TwitterIcon";
 import GithubLogo from "../components/Icons/GithubIcon";
-import DiscordIcon from "../components/Icons/DiscordIcon";
+// import DiscordIcon from "../components/Icons/DiscordIcon";
 import MailIcon from "../components/Icons/MailIcon";
 import TelegramIcon from "../components/Icons/TelegramIcon";
 
@@ -33,11 +33,11 @@ const Contact = () => {
         text: "telegram",
         icon: TelegramIcon
       },
-      {
-        url: `https://discord.com/invite/${social.discord}`,
-        text: "discord",
-        icon: DiscordIcon
-      }
+      // {
+      //   url: `https://discord.com/invite/${social.discord}`,
+      //   text: "discord",
+      //   icon: DiscordIcon
+      // }
     ],
     [social]
   );
