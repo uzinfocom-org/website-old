@@ -32,7 +32,7 @@ const Contact = () => {
         url: `https://t.me/${social.telegram}`,
         text: "telegram",
         icon: TelegramIcon
-      },
+      }
       // {
       //   url: `https://discord.com/invite/${social.discord}`,
       //   text: "discord",
