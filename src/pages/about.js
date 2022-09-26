@@ -1,14 +1,12 @@
-import React, { Fragment } from 'react';
-import Box from '@material-ui/core/Box';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
-import SEO from '../components/SEO';
-import { useFadeIn } from '../components/Animation/useFadeIn';
-import { useTranslation } from 'react-i18next';
+import React, { Fragment } from "react";
+import Box from "@material-ui/core/Box";
+import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
+import SEO from "../components/SEO";
+import { useFadeIn } from "../components/Animation/useFadeIn";
 
 const About = () => {
   const [fadeIn, animated] = useFadeIn();
-  const { t } = useTranslation();
 
   return (
     <Fragment>
@@ -19,8 +17,8 @@ const About = () => {
         height="100%"
         display="flex"
         alignItems={{
-          xs: 'flex-start',
-          md: 'center',
+          xs: "flex-start",
+          md: "center"
         }}
         pb={{ xs: 0, lg: 3 }}
       >
@@ -31,15 +29,15 @@ const About = () => {
               lineHeight={1}
               m={0}
               fontSize={{
-                xs: 'h3.fontSize',
-                md: 'h1.fontSize',
+                xs: "h3.fontSize",
+                md: "h1.fontSize"
               }}
               textAlign={{
-                xs: 'left',
-                md: 'center',
+                xs: "left",
+                md: "center"
               }}
             >
-              {t('helloworld')}
+              Salom Dunyo
             </Box>
           </Grid>
           <Grid item>
@@ -50,7 +48,7 @@ const About = () => {
               borderRadius="borderRadius"
               my={3}
               mr={{
-                md: 8,
+                md: 8
               }}
             />
           </Grid>
@@ -58,16 +56,33 @@ const About = () => {
             <Box
               pb={{
                 xs: 5,
-                md: 0,
+                md: 0
               }}
               pr={{
-                md: 4,
+                md: 4
               }}
             >
               <Typography variant="h5" gutterBottom>
-                {t('weareuzinfocom')}
+                Biz Uzinfocom Open Source Jamiyatimiz!
               </Typography>
-              <Typography gutterBottom>{t('about')}</Typography>
+              <Typography gutterBottom>
+                Avvalambor shuni aytib o'tish joizki, bu jamiyat yaralishidan
+                maqsad bu Open Source ni{" "}
+                <span role="img" aria-labelledby="uzbekistan">
+                  🇺🇿
+                </span>{" "}
+                O'zbekistonda keng miqyosda rivojlantirish va unga hammani o'z
+                hissasini qo'shishga chorlashdir.{" "}
+                <span role="img" aria-labelledby="geek">
+                  🤓
+                </span>{" "}
+                Bizning jamiyatimiz hamma yo'nalishlarni qamrab olgan hisoblanib{" "}
+                <span role="img" aria-label="information">
+                  📝
+                </span>
+                , o'zbek open source ni qayta tiriltirish, uni sayqallash va
+                rivojlantirishga o'z e'tiborini qaratadi.{" "}
+              </Typography>
             </Box>
           </Grid>
         </Grid>
