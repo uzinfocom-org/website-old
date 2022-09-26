@@ -1,6 +1,6 @@
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 
-const dPrimary = "#d77531";
+const dPrimary = "#1766a2";
 const lPrimary = "#d77531";
 
 // A custom theme for this app
@@ -11,7 +11,6 @@ const themeConfig = type => {
       type,
       primary: {
         main: isDark ? dPrimary : lPrimary
-        // main: "#00e676", // green
       },
       secondary: {
         main: "#ff0"
