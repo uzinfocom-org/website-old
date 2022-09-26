@@ -6,7 +6,6 @@
     "dependencies": {
         "@material-ui/core": "^4.7.0",
         "@material-ui/icons": "^4.5.1",
-        "apollo-link-http": "^1.5.17",
         "gatsby": "^2.18.2",
         "gatsby-plugin-catch-links": "^2.1.17",
         "gatsby-plugin-manifest": "^2.2.29",
@@ -20,7 +19,6 @@
         "gatsby-source-filesystem": "^2.1.38",
         "gatsby-source-graphql": "^2.1.24",
         "gatsby-transformer-remark": "^2.6.37",
-        "node-fetch": "^3.2.10",
         "prismjs": "^1.17.1",
         "prop-types": "^15.7.2",
         "react": "^16.12.0",
