@@ -14,7 +14,6 @@ i18next
           im: 'We are',
           tagline: 'The First Open Source Development Society in Uzbekistan',
           latestNews: 'Latest News',
-          about: 'About',
           helloworld: 'Hello World',
           weareuzinfocom: 'We are Uzinfocom Open Source Community',
           about:
