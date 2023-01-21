@@ -18,11 +18,11 @@ const Contact = () => {
 
   const socialLinks = useMemo(
     () => [
-      {
-        url: `https://twitter.com/${social.twitter}`,
-        text: "twitter",
-        icon: TwitterLogo
-      },
+      // {
+      //   url: `https://twitter.com/${social.twitter}`,
+      //   text: "twitter",
+      //   icon: TwitterLogo
+      // },
       {
         url: `https://github.com/${social.github}`,
         text: "github",

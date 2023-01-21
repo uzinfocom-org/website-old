@@ -10,7 +10,6 @@ function useSiteMetadata() {
           title
           description
           social {
-            twitter
             github
             telegram
             email
