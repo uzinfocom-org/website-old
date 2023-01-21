@@ -9,9 +9,8 @@ module.exports = {
         author: `@uzinfocom-org`,
         siteUrl: `https://oss.uzinfocom.uz`,
         social: {
-            twitter: "uzinfocom",
             github: "uzinfocom-org",
-            telegram: "xinuxuz",
+            telegram: "uzinfocom_oss",
             discord: "JkXFQpScFj",
             email: "cctld@uzinfocom.uz",
         },
