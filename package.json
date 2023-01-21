@@ -2,7 +2,7 @@
     "name": "website",
     "description": "Uzinfocom Open Source Jamiyati sahifasi",
     "version": "1.0.0",
-    "author": "UwUssimo Robinson (uwussi.moe)",
+    "author": "Yuri Katsuki (katsuki.moe)",
     "dependencies": {
         "@material-ui/core": "^4.7.0",
         "@material-ui/icons": "^4.5.1",
