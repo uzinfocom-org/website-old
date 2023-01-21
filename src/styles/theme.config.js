@@ -1,4 +1,4 @@
-import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
+import { createMuiTheme } from "@material-ui/core/styles";
 
 const dPrimary = "#1766a2";
 const lPrimary = "#d77531";
