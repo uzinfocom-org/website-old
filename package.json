@@ -4,7 +4,6 @@
     "version": "1.0.0",
     "author": "Yuri Katsuki (katsuki.moe)",
     "license": "GPL-3.0",
-    "type": "module",
     "scripts": {
         "clean": "gatsby clean",
         "build": "gatsby clean && gatsby build",
@@ -30,7 +29,7 @@
         "gatsby": "^5.4.2",
         "gatsby-plugin-catch-links": "^5.4.0",
         "gatsby-plugin-manifest": "^5.4.0",
-        "gatsby-plugin-material-ui": "^4.1.0",
+        "gatsby-plugin-material-ui": "next",
         "gatsby-plugin-no-sourcemaps": "^5.4.0",
         "gatsby-plugin-nprogress": "^5.4.0",
         "gatsby-plugin-offline": "^6.4.0",

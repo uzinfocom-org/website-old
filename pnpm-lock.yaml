@@ -10,7 +10,7 @@ specifiers:
   gatsby: ^5.4.2
   gatsby-plugin-catch-links: ^5.4.0
   gatsby-plugin-manifest: ^5.4.0
-  gatsby-plugin-material-ui: ^4.1.0
+  gatsby-plugin-material-ui: ^4.0.2
   gatsby-plugin-no-sourcemaps: ^5.4.0
   gatsby-plugin-nprogress: ^5.4.0
   gatsby-plugin-offline: ^6.4.0
@@ -38,7 +38,7 @@ dependencies:
   gatsby: 5.4.2_biqbaboplfbrettd7655fr4n2y
   gatsby-plugin-catch-links: 5.4.0_gatsby@5.4.2
   gatsby-plugin-manifest: 5.4.0_gatsby@5.4.2
-  gatsby-plugin-material-ui: 4.1.0_sab4xoyt2t6qpqltpus4g7satu
+  gatsby-plugin-material-ui: 4.0.2_sab4xoyt2t6qpqltpus4g7satu
   gatsby-plugin-no-sourcemaps: 5.4.0_gatsby@5.4.2
   gatsby-plugin-nprogress: 5.4.0_gatsby@5.4.2
   gatsby-plugin-offline: 6.4.0_zdhkhfsr7azgnqv5spp227qobm
@@ -6625,11 +6625,11 @@ packages:
       - graphql
     dev: false
 
-  /gatsby-plugin-material-ui/4.1.0_sab4xoyt2t6qpqltpus4g7satu:
-    resolution: {integrity: sha512-g43jWiH/05tqdeCXVzPSe/L/98nPYfVANGmdilSTvfLshNPTppnls/Zs98TXmhbdHV/Bgov0hQsYIrBgcKWHbQ==}
+  /gatsby-plugin-material-ui/4.0.2_sab4xoyt2t6qpqltpus4g7satu:
+    resolution: {integrity: sha512-dqrDmFLiTbanSW8geUOxMrmm9E73SOI5DvqvJSDGIy5aRdgQ6q/36mCkXFxKfpK93zJtrbeMVhcAMbBw83nzfg==}
     peerDependencies:
       '@emotion/react': ^11.4.0
-      gatsby: ^3.0.0 || ^4.0.0
+      gatsby: ^3.0.0
     dependencies:
       '@emotion/cache': 11.10.5
       '@emotion/react': 11.10.5_react@18.2.0

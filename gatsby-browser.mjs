@@ -1,9 +1,9 @@
-require("./src/styles/dracula-prism.css");
-require("./src/styles/index.css");
+import("./src/styles/dracula-prism.css");
+import("./src/styles/index.css");
 
-const React = require("react");
-const Layout = require("./src/components/Layout").default;
+import React from "react";
+import { default as Layout } from "./src/components/Layout";
 
-exports.wrapPageElement = ({ element, props }) => {
+export const wrapPageElement = ({ element, props }) => {
     return <Layout {...props}>{element}</Layout>;
 };

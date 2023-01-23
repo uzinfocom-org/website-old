@@ -1,11 +1,11 @@
-const path = require("path");
-const dotenv = require("dotenv");
+import path from "path";
+import dotenv from "dotenv";
 
 dotenv.config({
     path: `.env.development`,
 });
 
-module.exports.onCreateNode = ({ node, actions }) => {
+export const onCreateNode = ({ node, actions }) => {
     const { createNodeField } = actions;
 
     const {
@@ -24,7 +24,7 @@ module.exports.onCreateNode = ({ node, actions }) => {
     }
 };
 
-exports.createPages = async ({ graphql, actions }) => {
+export const createPages = async ({ graphql, actions }) => {
     const { createPage } = actions;
     const blogTemplate = path.resolve(__dirname, "src/templates/Blog.js");
     const tagTemplate = path.resolve(__dirname, "src/templates/Tag.js");

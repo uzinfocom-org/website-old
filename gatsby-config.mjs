@@ -1,10 +1,14 @@
+import path from 'path';
 import fetch from "node-fetch";
+import { fileURLToPath } from 'url';
 import { createHttpLink } from "apollo-link-http";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
-module.exports = {
+const config = {
     siteMetadata: {
         name: "Uzinfocom Open Source",
         title: `O'zbekistondagi Birinchi Open Source Rivojlantiruvchi Jamiyat`,
@@ -125,3 +129,5 @@ module.exports = {
         `gatsby-plugin-offline`,
     ],
 };
+
+export default config;
