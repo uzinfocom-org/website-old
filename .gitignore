@@ -108,3 +108,6 @@ public
 
 # yarn caches
 .yarn/
+
+# let the vercel create lockfiles
+pnpm-lock.yaml
