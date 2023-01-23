@@ -111,3 +111,7 @@ public
 
 # let the vercel create lockfiles
 pnpm-lock.yaml
+yarn.lock
+
+# don't push pnps
+.pnp*
