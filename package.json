@@ -28,7 +28,7 @@
         "gatsby": "^2.18.2",
         "gatsby-plugin-catch-links": "^2.1.17",
         "gatsby-plugin-manifest": "^2.2.29",
-        "gatsby-plugin-material-ui": "^2.1.10",
+        "gatsby-plugin-material-ui": "^4.1.0",
         "gatsby-plugin-no-sourcemaps": "^2.1.1",
         "gatsby-plugin-nprogress": "^2.1.14",
         "gatsby-plugin-offline": "^3.0.22",
