@@ -1,6 +1,9 @@
 import fetch from "node-fetch";
 import { createHttpLink } from "apollo-link-http";
 
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
 module.exports = {
     siteMetadata: {
         name: "Uzinfocom Open Source",
