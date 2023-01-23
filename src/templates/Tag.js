@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 import { graphql } from "gatsby";
-import Typography from "@material-ui/core/Typography";
-import Grid from "@material-ui/core/Grid";
+import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid";
 import SEO from "../components/SEO";
 import Bar from "../components/Bar";
 import BlogCards from "../components/BlogCards";
 // import NavigationLink from "../components/NavigationLink";
 
 export const data = graphql`
-  query($tag: String) {
+  query ($tag: String) {
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }

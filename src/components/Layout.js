@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
 import Header from "./Header";
-import Box from "@material-ui/core/Box";
+import Box from "@mui/material/Box";
 
 const Layout = ({ children }) => (
   <Fragment>
@@ -12,7 +12,7 @@ const Layout = ({ children }) => (
       py={10}
       px={{
         xs: 2.5,
-        md: 0
+        md: 0,
       }}
       style={{ overflowY: "auto" }}
     >
@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;

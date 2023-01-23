@@ -1,12 +1,12 @@
 import React, { memo } from "react";
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 import DateIcon from "@material-ui/icons/DateRangeTwoTone";
-import Box from "@material-ui/core/Box";
+import Box from "@mui/material/Box";
 
 const options = {
   year: "numeric",
   month: "long",
-  day: "numeric"
+  day: "numeric",
 };
 
 const DateFormat = ({ date }) => {

@@ -3,7 +3,7 @@ import React, {
   useContext,
   useReducer,
   useEffect,
-  useMemo
+  useMemo,
 } from "react";
 import themeConfig from "../styles/theme.config";
 
@@ -11,7 +11,7 @@ const ThemeContext = createContext(null);
 const ThemeDispatch = createContext(null);
 
 const initialTheme = {
-  paletteType: "light"
+  paletteType: "light",
 };
 
 const reducer = (__, { type }) => {

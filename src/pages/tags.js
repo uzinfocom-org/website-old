@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import { Link, graphql } from "gatsby";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
-import Box from "@material-ui/core/Box";
-import Fab from "@material-ui/core/Fab";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import Fab from "@mui/material/Fab";
 import { kebabCase } from "../utils/string.utils";
 import SEO from "../components/SEO";
 import Bar from "../components/Bar";
@@ -26,8 +26,8 @@ export const pageQuery = graphql`
 
 const TagsPage = ({
   data: {
-    allMarkdownRemark: { group }
-  }
+    allMarkdownRemark: { group },
+  },
 }) => (
   <Fragment>
     <SEO title="Tags" />
@@ -37,7 +37,7 @@ const TagsPage = ({
           Teglar
         </Typography>
         <Bar />
-        {group.map(tag => (
+        {group.map((tag) => (
           <Box key={tag.fieldValue} display="inline-block" m={0.75} ml={0}>
             <Fab
               component={Link}

@@ -1,4 +1,2 @@
-export const kebabCase = text =>
-  String(text)
-    .toLowerCase()
-    .replace(/ /g, "_");
+export const kebabCase = (text) =>
+  String(text).toLowerCase().replace(/ /g, "_");

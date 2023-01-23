@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
-import Box from "@material-ui/core/Box";
-import Link from "@material-ui/core/Link";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import Link from "@mui/material/Link";
 import LinkIcon from "@material-ui/icons/ArrowForwardRounded";
 import { graphql } from "gatsby";
 import SEO from "../components/SEO";
@@ -44,9 +44,9 @@ export const data = graphql`
 const Projects = ({
   data: {
     github: {
-      organization: { url, pinnedItems }
-    }
-  }
+      organization: { url, pinnedItems },
+    },
+  },
 }) => {
   const [fadeIn, animated] = useFadeIn();
 

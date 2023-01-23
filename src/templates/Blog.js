@@ -1,8 +1,8 @@
 import React, { Fragment, useMemo, useEffect } from "react";
 import { graphql } from "gatsby";
-import Grid from "@material-ui/core/Grid";
-import Box from "@material-ui/core/Box";
-import styled from "@material-ui/core/styles/styled";
+import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
+import styled from "@mui/material/styles/styled";
 import SEO from "../components/SEO";
 import { useFadeIn } from "../components/Animation/useFadeIn";
 import DateFormat from "../components/DateFormat";
@@ -15,22 +15,22 @@ const StyledBox = styled(Box)(
   ({
     theme: {
       spacing,
-      palette: { primary }
-    }
+      palette: { primary },
+    },
   }) => ({
     "& a": {
-      color: primary.main
+      color: primary.main,
     },
     "& blockquote": {
       margin: 0,
       padding: spacing(0.5, 2),
-      borderLeft: `3px solid ${primary.main}`
-    }
+      borderLeft: `3px solid ${primary.main}`,
+    },
   })
 );
 
 export const data = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       timeToRead
       frontmatter {
@@ -48,15 +48,15 @@ const Blog = ({
     markdownRemark: {
       timeToRead,
       frontmatter: { title, date, tags },
-      html
-    }
+      html,
+    },
   },
-  pageContext: { previous, next }
+  pageContext: { previous, next },
 }) => {
   const navs = useMemo(
     () => [
       { text: "Oldingi", to: previous, type: "previous" },
-      { text: "Keyingi", to: next, type: "next" }
+      { text: "Keyingi", to: next, type: "next" },
     ],
     [previous, next]
   );
@@ -87,7 +87,7 @@ const Blog = ({
             m={0}
             fontSize={{
               xs: "h5.fontSize",
-              md: "h4.fontSize"
+              md: "h4.fontSize",
             }}
             color="primary.main"
             fontWeight="fontWeightBold"
@@ -103,14 +103,14 @@ const Blog = ({
             py={2}
             fontSize={{
               xs: "body2.fontSize",
-              md: "body1.fontSize"
+              md: "body1.fontSize",
             }}
             dangerouslySetInnerHTML={{ __html: html }}
           />
           <Bar width="100%" my={2} />
           <BlogTags tags={tags} />
           <Box display="flex" justifyContent="space-between" pt={3}>
-            {navs.map(nav =>
+            {navs.map((nav) =>
               nav.to ? <NavigationLink {...nav} /> : <div key={nav.to} />
             )}
           </Box>

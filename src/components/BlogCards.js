@@ -1,6 +1,6 @@
 import React, { memo } from "react";
-import Typography from "@material-ui/core/Typography";
-import Box from "@material-ui/core/Box";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 import { Link } from "gatsby";
 import { useStaggeredSlideIn } from "./Animation/useStaggeredSlideIn";
 import DateFormat from "../components/DateFormat";
@@ -12,7 +12,7 @@ const BlogCard = ({
     timeToRead,
     frontmatter: { title, date },
     excerpt,
-    fields: { slug }
+    fields: { slug },
   },
   ...props
 }) => (
@@ -41,7 +41,7 @@ const BlogCards = ({ blogs }) => {
         component={animated.div}
         style={{
           ...props,
-          transform: x.to(_x => `translate3d(${_x}px,${_x}px,0)`)
+          transform: x.to((_x) => `translate3d(${_x}px,${_x}px,0)`),
         }}
       />
     );

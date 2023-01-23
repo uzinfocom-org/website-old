@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import SEO from "../components/SEO";
-import Box from "@material-ui/core/Box";
+import Box from "@mui/material/Box";
 import Bar from "../components/Bar";
 
 const NotFoundPage = () => (
@@ -22,7 +22,7 @@ const NotFoundPage = () => (
         fontSize={{
           xs: "h2.fontSize",
           sm: "h1.fontSize",
-          md: "h1.fontSize"
+          md: "h1.fontSize",
         }}
       >
         4 0_o 4
@@ -35,7 +35,7 @@ const NotFoundPage = () => (
         mb={3}
         fontSize={{
           xs: "h5.fontSize",
-          sm: "h4.fontSize"
+          sm: "h4.fontSize",
         }}
       >
         Adashdingiz
@@ -47,7 +47,7 @@ const NotFoundPage = () => (
         mb={2}
         fontSize={{
           xs: "body2.fontSize",
-          sm: "body1.fontSize"
+          sm: "body1.fontSize",
         }}
       >
         {/* [Sadness Everywhere] */}

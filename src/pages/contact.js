@@ -1,9 +1,9 @@
 import React, { Fragment, useMemo } from "react";
 
 import SEO from "../components/SEO";
-import Box from "@material-ui/core/Box";
-import Typography from "@material-ui/core/Typography";
-import MuiLink from "@material-ui/core/Link";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import MuiLink from "@mui/material/Link";
 import useSiteMetadata from "../hooks/useSiteMetadata";
 import { useFadeIn } from "../components/Animation/useFadeIn";
 import TwitterLogo from "../components/Icons/TwitterIcon";
@@ -26,13 +26,13 @@ const Contact = () => {
       {
         url: `https://github.com/${social.github}`,
         text: "github",
-        icon: GithubLogo
+        icon: GithubLogo,
       },
       {
         url: `https://t.me/${social.telegram}`,
         text: "telegram",
-        icon: TelegramIcon
-      }
+        icon: TelegramIcon,
+      },
       // {
       //   url: `https://discord.com/invite/${social.discord}`,
       //   text: "discord",
@@ -58,7 +58,7 @@ const Contact = () => {
           <Typography variant="h5" paragraph>
             Bizni shu yerdan qidiring...
           </Typography>
-          {socialLinks.map(link => (
+          {socialLinks.map((link) => (
             <Box key={link.text} mb={2} display="flex" alignItems="center">
               <MuiLink
                 href={link.url}

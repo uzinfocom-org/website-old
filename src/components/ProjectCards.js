@@ -1,7 +1,7 @@
 import React, { memo } from "react";
-import Link from "@material-ui/core/Link";
-import Typography from "@material-ui/core/Typography";
-import Box from "@material-ui/core/Box";
+import Link from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 import WebIcon from "@material-ui/icons/PublicTwoTone";
 import { useStaggeredSlideIn } from "./Animation/useStaggeredSlideIn";
 import ListTitle from "./ListTitle";
@@ -44,7 +44,7 @@ const ProjectCards = ({ projects }) => {
         component={animated.div}
         style={{
           ...props,
-          transform: x.to(_x => `translate3d(${_x}px,${_x}px,0)`)
+          transform: x.to((_x) => `translate3d(${_x}px,${_x}px,0)`),
         }}
         project={node}
       />

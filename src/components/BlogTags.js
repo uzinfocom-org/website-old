@@ -1,7 +1,7 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
-import Chip from "@material-ui/core/Chip";
-import Box from "@material-ui/core/Box";
+import Typography from "@mui/material/Typography";
+import Chip from "@mui/material/Chip";
+import Box from "@mui/material/Box";
 import { Link } from "gatsby";
 import { kebabCase } from "../utils/string.utils";
 

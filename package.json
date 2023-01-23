@@ -3,9 +3,28 @@
     "description": "Uzinfocom Open Source Jamiyati sahifasi",
     "version": "1.0.0",
     "author": "Yuri Katsuki (katsuki.moe)",
+    "license": "GPL-3.0",
+    "scripts": {
+        "clean": "gatsby clean",
+        "build": "gatsby clean && gatsby build",
+        "develop": "gatsby develop",
+        "format": "prettier --write --check src/**/*.{js,jsx}",
+        "start": "pnpm run develop",
+        "serve": "gatsby serve",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/uzinfocom-org/website"
+    },
+    "bugs": {
+        "url": "https://github.com/uzinfocom-org/website/issues"
+    },
     "dependencies": {
-        "@material-ui/core": "^4.7.0",
-        "@material-ui/icons": "^4.5.1",
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "@material-ui/icons": "^4.11.3",
+        "@mui/material": "^5.11.5",
         "gatsby": "^2.18.2",
         "gatsby-plugin-catch-links": "^2.1.17",
         "gatsby-plugin-manifest": "^2.2.29",
@@ -24,30 +43,10 @@
         "react": "^16.12.0",
         "react-dom": "^16.12.0",
         "react-helmet": "^5.2.1",
-        "react-spring": "^9.0.0-beta.34"
+        "react-spring": "^9.6.1"
     },
     "devDependencies": {
-        "dotenv": "^8.2.0",
-        "prettier": "^1.19.1"
-    },
-    "keywords": [
-        "gatsby"
-    ],
-    "license": "GPL-3.0",
-    "scripts": {
-        "clean": "gatsby clean",
-        "build": "gatsby clean && gatsby build",
-        "develop": "gatsby develop",
-        "format": "prettier --write --check src/**/*.{js,jsx}",
-        "start": "npm run develop",
-        "serve": "gatsby serve",
-        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/uzinfocom-org/website"
-    },
-    "bugs": {
-        "url": "https://github.com/uzinfocom-org/website/issues"
+        "dotenv": "^16.0.3",
+        "prettier": "^2.8.3"
     }
 }

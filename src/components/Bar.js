@@ -1,7 +1,7 @@
 import React from "react";
-import Box from "@material-ui/core/Box";
+import Box from "@mui/material/Box";
 
-const Bar = props => {
+const Bar = (props) => {
   return (
     <Box
       width={100}

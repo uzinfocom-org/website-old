@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import Box from "@material-ui/core/Box";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 import SEO from "../components/SEO";
 import { useFadeIn } from "../components/Animation/useFadeIn";
 
@@ -18,7 +18,7 @@ const About = () => {
         display="flex"
         alignItems={{
           xs: "flex-start",
-          md: "center"
+          md: "center",
         }}
         pb={{ xs: 0, lg: 3 }}
       >
@@ -30,11 +30,11 @@ const About = () => {
               m={0}
               fontSize={{
                 xs: "h3.fontSize",
-                md: "h1.fontSize"
+                md: "h1.fontSize",
               }}
               textAlign={{
                 xs: "left",
-                md: "center"
+                md: "center",
               }}
             >
               Salom Dunyo
@@ -48,7 +48,7 @@ const About = () => {
               borderRadius="borderRadius"
               my={3}
               mr={{
-                md: 8
+                md: 8,
               }}
             />
           </Grid>
@@ -56,10 +56,10 @@ const About = () => {
             <Box
               pb={{
                 xs: 5,
-                md: 0
+                md: 0,
               }}
               pr={{
-                md: 4
+                md: 4,
               }}
             >
               <Typography variant="h5" gutterBottom>

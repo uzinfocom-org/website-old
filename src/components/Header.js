@@ -1,6 +1,6 @@
 import React, { useState, Fragment, useCallback, memo } from "react";
-import Box from "@material-ui/core/Box";
-import MuiLink from "@material-ui/core/Link";
+import Box from "@mui/material/Box";
+import MuiLink from "@mui/material/Link";
 import { navigate } from "gatsby";
 import BaseDrawer from "./Drawer/Drawer";
 import DrawerButton from "./Drawer/DrawerButton";
@@ -10,11 +10,11 @@ import ThemeToggle from "./ThemeToggle";
 const Header = () => {
   const [show, setShow] = useState(false);
 
-  const showDrawer = f =>
-    typeof f === "boolean" ? setShow(f) : setShow(v => !v);
+  const showDrawer = (f) =>
+    typeof f === "boolean" ? setShow(f) : setShow((v) => !v);
 
   const handleClick = useCallback(
-    (link, flag) => ev => {
+    (link, flag) => (ev) => {
       ev.preventDefault();
       showDrawer(flag);
       navigate(link);
@@ -34,11 +34,11 @@ const Header = () => {
         alignItems="center"
         py={{
           xs: 2.5,
-          md: 3.5
+          md: 3.5,
         }}
         px={{
           xs: 2.5,
-          md: 4
+          md: 4,
         }}
       >
         <MuiLink
@@ -51,7 +51,7 @@ const Header = () => {
             clone
             height={{
               xs: 44,
-              md: 50
+              md: 50,
             }}
           >
             <Logo />

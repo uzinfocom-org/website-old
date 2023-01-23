@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useMemo } from "react";
 import PropTypes from "prop-types";
 import { animated, useTrail, config } from "react-spring";
-import Box from "@material-ui/core/Box";
+import Box from "@mui/material/Box";
 import { useThemeContext } from "./ThemeContext";
 
 const initSpace = [0, 1];
@@ -10,14 +10,14 @@ const AnimatedText = ({ text, ...props }) => {
   const { palette } = useThemeContext();
   const [hover, setHover] = useState(false);
   const _text = useMemo(() => text.split(""), [text]);
-  const handleHover = useCallback(val => () => setHover(val), [setHover]);
+  const handleHover = useCallback((val) => () => setHover(val), [setHover]);
 
   const trails = useTrail(_text.length, {
     to: {
       color: hover ? palette.primary.main : palette.text.primary,
-      spacing: hover ? [0, 8] : initSpace
+      spacing: hover ? [0, 8] : initSpace,
     },
-    config: config.stiff
+    config: config.stiff,
   });
 
   const items = trails.map(({ spacing, ...styles }, $i) => (
@@ -25,7 +25,7 @@ const AnimatedText = ({ text, ...props }) => {
       key={$i}
       style={{
         ...styles,
-        padding: spacing.to((x, y) => `${x}px ${y}px`)
+        padding: spacing.to((x, y) => `${x}px ${y}px`),
       }}
     >
       {_text[$i]}
@@ -45,7 +45,7 @@ const AnimatedText = ({ text, ...props }) => {
 };
 
 AnimatedText.propTypes = {
-  text: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired,
 };
 
 export default AnimatedText;

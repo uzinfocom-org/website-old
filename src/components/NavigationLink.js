@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import Box from "@material-ui/core/Box";
-import MuiLink from "@material-ui/core/Link";
+import Box from "@mui/material/Box";
+import MuiLink from "@mui/material/Link";
 import PreviousIcon from "@material-ui/icons/KeyboardArrowLeftRounded";
 import NextIcon from "@material-ui/icons/KeyboardArrowRightRounded";
 

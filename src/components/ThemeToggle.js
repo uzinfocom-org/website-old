@@ -1,8 +1,8 @@
 import React, { useMemo, useCallback } from "react";
-import IconButton from "@material-ui/core/IconButton";
+import IconButton from "@mui/material/IconButton";
 import DarkIcon from "@material-ui/icons/Brightness2TwoTone";
 import LightIcon from "@material-ui/icons/FlareRounded";
-import Box from "@material-ui/core/Box";
+import Box from "@mui/material/Box";
 import { useThemeDispatch, useThemeContext } from "./ThemeContext";
 import { useToggleAnimation } from "./Animation/useToggleAnimation";
 

@@ -1,5 +1,5 @@
-import styled from "@material-ui/core/styles/styled";
-import Fab from "@material-ui/core/Fab";
+import styled from "@mui/material/styles/styled";
+import Fab from "@mui/material/Fab";
 
 const CustomFab = styled(Fab)(({ theme: { palette } }) => {
   return {
@@ -8,8 +8,8 @@ const CustomFab = styled(Fab)(({ theme: { palette } }) => {
     borderColor: palette.primary.main,
     backgroundColor: palette.background.default,
     "&:hover": {
-      backgroundColor: "inherit"
-    }
+      backgroundColor: "inherit",
+    },
   };
 });
 

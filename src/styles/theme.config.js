@@ -1,23 +1,23 @@
-import { createMuiTheme } from "@material-ui/core/styles";
+import { createMuiTheme } from "@mui/material/styles";
 
 const dPrimary = "#1766a2";
 const lPrimary = "#d77531";
 
 // A custom theme for this app
-const themeConfig = type => {
+const themeConfig = (type) => {
   const isDark = type === "dark";
   return createMuiTheme({
     palette: {
       type,
       primary: {
-        main: isDark ? dPrimary : lPrimary
+        main: isDark ? dPrimary : lPrimary,
       },
       secondary: {
-        main: "#ff0"
+        main: "#ff0",
       },
       background: {
-        default: isDark ? "#000" : "#fff"
-      }
+        default: isDark ? "#000" : "#fff",
+      },
     },
     typography: {
       fontFamily: [
@@ -26,9 +26,9 @@ const themeConfig = type => {
         "Roboto",
         '"Helvetica Neue"',
         "Arial",
-        "sans-serif"
-      ].join(",")
-    }
+        "sans-serif",
+      ].join(","),
+    },
   });
 };
 

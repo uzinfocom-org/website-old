@@ -2,7 +2,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 function useBlogs() {
   const {
-    allMarkdownRemark: { edges }
+    allMarkdownRemark: { edges },
   } = useStaticQuery(graphql`
     query {
       allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
