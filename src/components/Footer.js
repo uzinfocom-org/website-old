@@ -2,7 +2,7 @@ import React, { Fragment, memo } from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import MuiLink from "@mui/material/Link";
-import ArrayIcon from "@material-ui/icons/PlayArrowTwoTone";
+import ArrayIcon from "@mui/icons-material/PlayArrowTwoTone";
 import { Link } from "gatsby";
 import CustomFab from "./CustomFab";
 import { useFadeIn } from "./Animation/useFadeIn";

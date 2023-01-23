@@ -1,7 +1,7 @@
 import React, { useMemo, useCallback } from "react";
 import IconButton from "@mui/material/IconButton";
-import DarkIcon from "@material-ui/icons/Brightness2TwoTone";
-import LightIcon from "@material-ui/icons/FlareRounded";
+import DarkIcon from "@mui/icons-material/Brightness2TwoTone";
+import LightIcon from "@mui/icons-material/FlareRounded";
 import Box from "@mui/material/Box";
 import { useThemeDispatch, useThemeContext } from "./ThemeContext";
 import { useToggleAnimation } from "./Animation/useToggleAnimation";

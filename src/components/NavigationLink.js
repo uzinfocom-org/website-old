@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 import Box from "@mui/material/Box";
 import MuiLink from "@mui/material/Link";
-import PreviousIcon from "@material-ui/icons/KeyboardArrowLeftRounded";
-import NextIcon from "@material-ui/icons/KeyboardArrowRightRounded";
+import PreviousIcon from "@mui/icons-material/KeyboardArrowLeftRounded";
+import NextIcon from "@mui/icons-material/KeyboardArrowRightRounded";
 
 const NavigationLink = ({ text, type, to, ...props }) => {
   return (

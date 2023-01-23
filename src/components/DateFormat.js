@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import Typography from "@mui/material/Typography";
-import DateIcon from "@material-ui/icons/DateRangeTwoTone";
+import DateIcon from "@mui/icons-material/DateRangeTwoTone";
 import Box from "@mui/material/Box";
 
 const options = {

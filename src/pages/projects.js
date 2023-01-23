@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Link from "@mui/material/Link";
-import LinkIcon from "@material-ui/icons/ArrowForwardRounded";
+import LinkIcon from "@mui/icons-material/ArrowForwardRounded";
 import { graphql } from "gatsby";
 import SEO from "../components/SEO";
 import ProjectCards from "../components/ProjectCards";

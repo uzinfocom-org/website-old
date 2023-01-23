@@ -2,7 +2,7 @@ import React, { memo } from "react";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import WebIcon from "@material-ui/icons/PublicTwoTone";
+import WebIcon from "@mui/icons-material/PublicTwoTone";
 import { useStaggeredSlideIn } from "./Animation/useStaggeredSlideIn";
 import ListTitle from "./ListTitle";
 
